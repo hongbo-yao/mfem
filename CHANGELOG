@@ -11,6 +11,17 @@
 Version 4.1.1 (development)
 ===========================
 
+Miscellaneous
+-------------
+- Added support for ADIOS2 output with partial ParaView visualization from mfem
+  examples. The classes adios2stream and ADIOS2DataCollection are 
+  introduced in mfem as the interfaces to generate BP directory datasets for the 
+  entire spatial and temporal data. In addition, ADIOS2 allows for setting a 
+  user-defined number of data substreams/subfiles. 
+  For current ADIOS2+ParaView coverage from mfem examples see 
+  config/run_adios2stream.py.
+
+
 
 Version 4.1, released on March 10, 2020
 =======================================
